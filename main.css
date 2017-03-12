@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  background-color: #0b233a;
 }
 
 header {
@@ -36,7 +37,7 @@ header p {
 }
 
 .jumbotron {
- 
+ background-color:#091827;
 }
 
 
@@ -58,9 +59,14 @@ header p {
   margin-top: 20px;
 }
 
+b, strong {
+    font-weight: 700;
+    color: #ffa500;
+}
+
  h3 {
   font: normal 1.5vw/1.3 'Calibre-Regular',Arial,Sans-serif;
-  color: #807d7e;
+  color: #eeeaea;
   margin: 0 0 30px;
   text-align: justify;
 }
@@ -73,12 +79,12 @@ header p {
 	padding-bottom:6px;
 	padding-left:20px;
 	padding-right:20px;
-	color: #119B0E;
+	color: #ffa500;
 }
 
 .btn-default {
     border-color: orange;
-	
+	background-color: rgb(92, 184, 92);
 }
 
 
@@ -96,16 +102,7 @@ section .row img {
     width: 50%;
 }
 
-footer {
- 
-  padding: 60px 0;
-  font-size: 0.9vw
-}
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
 
 /* Tutorial-Imagens CSS */
 
@@ -240,7 +237,7 @@ img.hover-shadow {
   margin:30px;
   border:solid white 1px;
   border-radius:5px;
-  background-color:#e6e6e6;
+  background-color:#f8e6ab;
   text-align:center;
 }
 
@@ -252,13 +249,13 @@ img.hover-shadow {
 .btn-block {
     display: block;
     width: 100%;
-    background-color: orange;
+    background-color: #5cb85c;
 }
 
 /* FOOTER */
 
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #091827;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -322,7 +319,7 @@ img.hover-shadow {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color:  #070b13;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -359,7 +356,7 @@ img.hover-shadow {
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
-	background-color:  #1f2022;
+	background-color:  #070b13;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 	border: none;
 	resize: none;
@@ -399,7 +396,7 @@ img.hover-shadow {
 
 .footer-distributed form button{
 	border-radius: 3px;
-	background-color:  #33383b;
+	background-color:  #070b13;
 	color: #ffffff;
 	border: 0;
 	padding: 10px 40px;
