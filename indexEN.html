@@ -1,0 +1,204 @@
+<!--INICO-->
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+<!--CABECALHO--> 
+
+<section class="jumbotron">
+  <div class="jumbotron">
+  <div class="col-sm-11 text-right">
+		<a href="index.html"   class="btn btn-default btn-xs" role="button">PT</a>
+		<a href="indexEN.html" target="" class="btn btn-default btn-xs" role="button">EN</a>
+  </div>
+  <div class="container">
+		<center><h1> Money Maker </h1></center>
+  </div>
+  </div>
+</section>
+
+<!--Botãoo para download do jogo--> 
+    	
+<section class="container">
+   <div class="row">
+		<p><h2><center>Download The Game</center></h2><p>
+			<center> 
+				<a href="http://www.mediafire.com/file/gub3wcc3bq8l0us/MoneyMaker2.rar"  target="_blank" class="btn btn-default btn-sm" role="button">
+				<span class="glyphicon glyphicon-download-alt"></span></a>
+			</center>
+		</p>
+	</div>
+	
+<!--Sobre o jogo / descrição--> 
+  	<div class="row">
+		<p><h2><center>About o Jogo</center></h2><p>
+		<figure class="col-xs-4" >
+					<img src="2tlms.png"/> 
+        </figure>
+		
+		
+	</div>
+	
+<!-- INICIO DO TUTORIAL-->  
+	<div class="row">
+		<p><h2><center>How to Install</center></h2><p>
+	</div>	
+	
+<!--Aparece as 6 imagens no ecrã--> 
+	<div class="row">
+		<div class="col-xs-3">
+				<p><center>Print1</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(1)" class="hover-shadow"/>
+		</div>
+        <div class="col-xs-3">
+				<p><center>Print2</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(2)" class="hover-shadow"/>
+        </div>
+        <div class="col-xs-3">
+				<p><center>Print3</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(3)" class="hover-shadow"/>
+		</div>
+		<div class="col-xs-3">
+				<p><center>Print4</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(4)" class="hover-shadow"/>
+		</div>
+		<div class="col-xs-3">
+				<p><center>Print5</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(5)" class="hover-shadow"/>
+		</div>
+		<div class="col-xs-3">
+				<p><center>Print6</center></p>
+				<img src="ambientetrabalho.png" onclick="openModal();currentSlide(6)" class="hover-shadow"/>
+		</div>
+	</div>   	
+	
+<!--Aparece a "moldura apenas quando é clicada"--> 
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+  
+<!--Mostra a imagem selecionada na moldura--> 
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+	
+	 <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+	
+	 <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="ambientetrabalho.png" style="width:50%">
+    </div>
+	
+<!--Botoes anterior  seguinte--> 
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+	
+	
+<!--Mostra as mniaturas das imagens por baixo da moldura--> 
+    <div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(1)" alt="PRINT1">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(2)" alt="PRINT2">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(3)" alt="PRINT3">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(4)" alt="PRINT4">
+    </div>
+	
+	<div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(5)" alt="PRINT5">
+    </div>
+	
+	<div class="column">
+      <img class="demo" src="ambientetrabalho2.png" onclick="currentSlide(6)" alt="PRINT6">
+    </div>
+  </div>
+</div>   
+ 
+<!--Script para quando o botão anterior/seguinte for clicado a imagem mudar para anterior/seguinte--> 
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</section>
+<!--FIM DO TUTORIAL-->
+
+
+<!--RODAPE-->
+<footer class="container">
+    <div class="row">
+			<p class="col-sm-8">&copy; 2016 Money Maker</p>
+    </div>
+</footer>
+</body>
+</html>
+<!--FIM-->
