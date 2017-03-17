@@ -241,6 +241,7 @@ img.hover-shadow {
   border-radius:5px;
   background-color:#070b13;
   text-align:center;
+  color: white;
 }
 
 .btn-success, .btn-danger {
