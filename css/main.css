@@ -1,0 +1,286 @@
+/* ============================================================
+   DEFENIR MARGIN/PADDING DE TUDO PARA 0
+============================================================ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* ============================================================
+   BODY
+============================================================ */
+body {
+ font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  background-color: #0b233a;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+
+
+/* ============================================================
+   PRINCIPAIS ESTRURAS
+============================================================ */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* ============================================================
+   BOTÕES / IMAGENS / TIPOS DE LETRAS
+============================================================ */
+
+.btn-group-xs > .btn, .btn-xs {
+    padding: 4px 7px;
+    line-height: 1.5;
+    border-radius: 8px;
+	margin-top: 19px;
+	background-color:orange;
+	font-size: 1vw
+}
+
+.container h2 {
+  font-size: 40px;
+   font-family: "Roboto Slab", serif;
+   margin-bottom: 40px;
+ 
+  
+}
+
+p {
+      color: black;
+	  
+}
+b, strong {
+    font-weight: 700;
+    color: #ffa500;
+}
+/*  font-family: "Roboto Slab", serif; */ 
+ h3 {
+  font: normal 19px/1.3 'Calibre-Regular',Arial,Sans-serif;
+  color: black;
+  margin: 0 0 30px;
+  text-align: justify;
+   margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  color:orange;
+}
+
+/* botão de download */ 
+.glyphicon {
+    font-size: 3vw;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	color: #ffa500;
+}
+
+.btn-default {
+    border-color: orange;
+	background-color: rgb(91, 13, 28);
+}
+
+/* imagem principal da galeria de imagens */ 
+section .row img {
+   width: 50%;
+}
+
+
+
+
+/* ============================================================
+  FOOTER / RODAPÉ
+============================================================ */
+
+
+.footer-distributed{
+	background-color: #5b0d1c;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 30px 40px 0px;
+	overflow: hidden;
+	margin-top:-150px;
+}
+
+
+
+/* Footer Centrado */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #6c0f1e;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;
+}
+
+/* Footer ícones sociais */
+
+.footer-distributed .footer-icons{
+	margin-top: 23px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #590d1c;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+	padding-top: 7px;
+}
+/* nome da empresa e direitos de autor */
+
+.footer-distributed .footer-company-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Tamanho responsivo / Media */
+/* 1000px */
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+}
+
+/* ============================================================
+  TAMANHO RESPONSIVO AOS 768 PIXEIS
+============================================================ */
+/* 768 */
+@media (max-width: 768px) {
+	
+	.footer-distributed{
+		margin-top:-80px;
+	}
+
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	
+	 h3 {
+		font: normal 15px/1.3 'Calibre-Regular',Arial,Sans-serif;
+		color: #black;
+		margin: 0 0 30px;
+		text-align: justify;
+	}
+	
+	 .container h2 {
+		margin-bottom: 30px;
+		font-family: "Roboto Slab", serif;
+		font-size: 30px;
+	}
+ 
+	 h2 {
+		margin-bottom: 30px;
+		font-family: "Roboto Slab", serif;
+		font-size: 27px;
+	}
+ 
+	
+}
+
+
+
+/* ============================================================
+  TEXT LEVEL SEMANTICS
+============================================================ */
+a {
+  text-decoration: none;
+  color: #b4b4b4;
+}
+
+a:hover {
+  color: #818181;
+}

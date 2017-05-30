@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="Site para divulgaçao da aplicação Android.">
+  <link rel="icon" type="image/png" href="img/icone.png">
+
+
+  <title>Assalto ao Banco</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="iconredessociais/css/font-awesome.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/galeria_imagens.css">
+  <link rel="stylesheet" href="css/minigame.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/parallax.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <!-- scripts -->
+  <script src="javascripts/galeriadeimagens.js"></script>
+  <script src="javascripts/minigame.js"></script>
+  <!-- font -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+
+</head>
+
+<body>
+	<div id='cssmenu'>
+		<center><ul>
+			<li><a href='#inicio'><span>PÁGINA INICIAL</span></a></li>
+			<li><a href='#sobre'><span>SOBRE</span></a></li>
+			<li><a href='#galeria'><span>GALERIA</span></a></li>
+			<li><a href='#minijogo'><span>MINI JOGO</span></a></li>
+			<li class='last'><a href='#avaliar'><span>AVALIAR</span></a></li>
+		</ul></center>
+	</div>
+	<div class="wrapper">
+	<p id="inicio"></p>
+
+<main>
+      
+      <section class="module parallax parallax-1">
+        <div class="container"></div>
+      </section>
+
+      <section class="module content" id="sobre">
+		<div class="container">
+		    <div class="sobre" id="sobre" >
+				<p><h2><center>Sobre o Jogo</center></h2><p>
+				<figure class="col-xs-12" > <!--Se tirar width + height a imagem adapta-se À pagina ficando sempre À esquerda/direita-->
+					<img style='float:right;width:25vw;height:40vw;margin-left:60px; margin-right:10px;' src="img/2androidstlm.png"/> 
+					<br><br><br><h3><strong>O que é um "Clicker Game"?</strong><br> Um jogo clicker ou incremental é um jogo eletronico que tem como base o jogador realizar uma ação simples e repetitiva para ganhar algo em troca.<br><br><br><strong>Como jogar?</strong><br> - Coleta o dinheiro que conseguires assaltando o cowboy que guarda o dinheiro. Quanto mais rápido clicares, mais dinheiro lhe vais roubar.<br> - Quando tiveres dinheiro suficiente, vai à loja e compra upgrades para conseguires roubar dinheiro mais rápido.<br> - Estás cansado de ver o cowboy careca? Não faz mal! Dirige-te à loja do visual e compra-lhe um chapéu.<br><br>O Assalto ao Banco é um jogo sem fim e por isso podes jogar durante o tempo que quiseres. Ilimitado...<br>Se quiseres definir um objetivo para terminar o jogo, nós ajudamos-te:<br><br> <strong>- Quando comprares o último upgrade considera-te o melhor ladrão de todos.</strong> <br> Mais abaixo na página podes encontrar um "mini jogo clicker".</h3> 
+				</figure>
+			</div>
+			
+			<div class="row">
+					<p><h2><center>Download do Jogo</center></h2>
+					<p><center> 
+						<a href="http://www.mediafire.com/file/gub3wcc3bq8l0us/MoneyMaker2.rar"  target="_blank" class="btn btn-default btn-sm" role="button">
+						<span class="glyphicon glyphicon-download-alt"></span></a>
+					</center></p>
+			</div>
+		</div>
+     </section>
+	 
+      <section class="module parallax2 parallax-2">
+        <div class="container"></div>
+      </section>
+
+      <section class="module content">
+        <div class="container">
+		
+<!-- INICIO DO TUTORIAL-->  
+			<p id="galeria"></p>
+		<div class="row">
+			<p><h2><center>Galeria de Imagens</center></h2><p>
+		</div>	
+	
+<!--Aparece as 6 imagens no ecrã--> 
+		<div class="row">
+			<div class=".col-xs-6 .col-sm-4">
+				<center><img src="img/ambientetrabalho.png" onclick="openModal();currentSlide(1)" class="hover-shadow"/></center>
+	
+		</div>   	
+	
+<!--Aparece a "moldura apenas quando é clicada"--> 
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+<!--Mostra a imagem selecionada na moldura--> 
+		<div class="mySlides">
+			<div class="numbertext">1 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">2 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">3 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">4 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+	
+		<div class="mySlides">
+			<div class="numbertext">5 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+	
+		<div class="mySlides">
+			<div class="numbertext">6 / 6</div>
+			<img src="img/ambientetrabalho.png" style="width:50%">
+		</div>
+	
+<!--Botoes anterior  seguinte--> 
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+	
+	
+<!--Mostra as mniaturas das imagens por baixo da moldura--> 
+		<div class="column">
+			<img class="demo" color="orange" src="img/ambientetrabalho2.png" onclick="currentSlide(1)" alt="PRINT1" >
+		</div>
+
+		<div class="column">
+			<img class="demo" src="img/ambientetrabalho2.png" onclick="currentSlide(2)" alt="PRINT2">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="img/ambientetrabalho2.png" onclick="currentSlide(3)" alt="PRINT3">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="img/ambientetrabalho2.png" onclick="currentSlide(4)" alt="PRINT4">
+		</div>
+	
+		<div class="column">
+			<img class="demo" src="img/ambientetrabalho2.png" onclick="currentSlide(5)" alt="PRINT5">
+		</div>
+	
+		<div class="column">
+			<img class="demo" src="img/ambientetrabalho2.png" onclick="currentSlide(6)" alt="PRINT6">
+		</div>
+	</div>
+	</div>   
+ 
+<!--FIM DO TUTORIAL-->
+    </div>
+	</section>
+
+    <section class="module parallax2 parallax-3">
+        <div class="container"></div>
+    </section>
+<!-- INICIO MINI JOGO-->
+		<p id="minijogo"></p>
+    <section class="module content">
+        <div class="row">
+			<p><h2><center>Mini Jogo</center></h2><p>
+		</div>	
+		<div class="MG-container">
+			<br></br>
+			<button id="click" type="button" class="btn btn-primary btn-lg btn-block">CLICK ME</button>
+			<hr>
+			<br>
+				Clicks: <span id="total_clicks">0</span><br />
+				Clicks per <small id="time_period">1.00</small> second: <span id="clicks_per_second">0</span>
+			</br>
+		<br>
+		<table class="table">
+			<tr>
+				<td>Autoclicker</td>
+				<td><span id="autoclicker_level">lvl 0</span></td>
+				<td><button id="buy_click" type="button" class="btn btn-success">Buy for 1</button></td>
+			</tr>
+			<tr>
+				<td>Speed up by 10%</td>
+				<td><span id="speed_level">lvl 0</span></td>
+				<td><button id="upgrade_speed" type="button" class="btn btn-success">Buy for 100</button></td>
+			</tr>
+      
+    </table>
+	<!--Tem de ligar AQUI ao script para funcionar-->
+		<script src="javascripts/minigame.js"></script>    
+		</div>	
+
+<!--FIM Mini Game-->
+
+<!--AVALIACAO-->
+			<p id="avaliar"></p>
+		<div class="row">
+			<p><h2><center>&darr; Avalia o nosso trabalho aqui! &darr;</center></h2><p>
+		</div>	
+	
+		<center> 
+				<a href="https://goo.gl/forms/OVQGfm03VFFI4JkO2"  target="_blank" class="btn btn-default btn-sm" role="button">
+				<span class="glyphicon glyphicon-star"></span></a>
+		</center>
+		<picture>
+			<source srcset="img/paralaxe07.png" media="(max-width: 800px)">
+			<source srcset="img/paralaxe06.png">
+			<img style='width:100%;' srcset="paralaxe06.png" alt="">
+		</picture>
+			
+	</section>
+    
+		</div>
+</main>
+
+ <!--RODAPE-->
+	<footer class="footer-distributed">
+			<center>
+				<div class="footer-center">	
+				<div> 
+					<i class="fa fa-envelope"></i>
+					<p>asaultoaobanco@gmail.com</p>
+				</div>
+				</div>
+				<div class="footer-icons">
+					<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="https://pt.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+				</div>
+				<br>
+					<p class="footer-company-name">&copy; 2017, Assalto ao Banco</p>
+			</center>
+	
+</footer>
+  
+<!-- /#wrapper -->
+
+
+
+</body>
+</html>

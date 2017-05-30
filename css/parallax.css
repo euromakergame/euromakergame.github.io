@@ -1,0 +1,67 @@
+/* ============================================================
+  SECTIONS / SECCÕES
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax2 {
+  height: 320px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* imagem para cada Parallax */
+section.module.parallax-1 {
+  background-image: url("../img/7.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/paralaxe02.png");
+}
+section.module.parallax-3 {
+  background-image: url("../img/paralaxe03.png");
+}
+section.module.parallax-4 {
+  background-image: url("../img/paralaxe05.png");
+}
+
+@media (max-width: 768px) {
+	
+	section.module.parallax2 {
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
